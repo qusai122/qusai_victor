@@ -8,11 +8,13 @@
   box-sizing: border-box;
 }
 
+/** Body elements **/
 body {
   background-color: #eee;
   font-family: 'Lato', sans-serif;
 }
 
+/** main elements **/
 #page-wrapper {
   position: relative;
 }
@@ -48,6 +50,8 @@ a {
 .grid {
   display: flex;
 }
+
+/** Header elements **/
 
 header {
   position: fixed;
@@ -127,6 +131,8 @@ nav > ul {
   }
 }
 
+/** Hero sections **/
+
 #hero {
   display: flex;
   flex-direction: column;
@@ -167,6 +173,8 @@ nav > ul {
     margin-top: 120px;
   }
 }
+
+/** Featues sections **/
 
 #features {
   margin-top: 25px;
@@ -211,10 +219,13 @@ nav > ul {
   }
 }
 
+/** HOw it works sections**/
+
 #how-it-works {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 #how-it-works > iframe {
